@@ -5,6 +5,7 @@ import sourceProjections from './source/projections.json' with { type: 'json' }
 type Projection = {
   id: string
   definition: string
+  bbox?: number[]
   name: string
   epsg: number
 }
@@ -21,7 +22,8 @@ for (const projection of sourceProjections) {
     id: `https://api.allmaps.org/projections/${id}`,
     definition: projection.definition.trim(),
     name: `EPSG:${projection.code} - ${projection.name}`,
-    epsg: Number(projection.code)
+    epsg: Number(projection.code),
+    bbox: projection.bbox
   })
 }
 
