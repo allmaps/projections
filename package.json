@@ -2,6 +2,8 @@
   "name": "@allmaps/projections",
   "version": "1.0.0",
   "description": "A collection of map projections used by Allmaps and other mapping tools.",
+  "type": "module",
+  "scripts": {},
   "dependencies": {
     "@allmaps/id": "1.0.0-beta.35"
   },
