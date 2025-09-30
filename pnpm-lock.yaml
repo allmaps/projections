@@ -1,0 +1,34 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@allmaps/id':
+        specifier: 1.0.0-beta.35
+        version: 1.0.0-beta.35
+    devDependencies:
+      prettier:
+        specifier: ^3.6.2
+        version: 3.6.2
+
+packages:
+
+  '@allmaps/id@1.0.0-beta.35':
+    resolution: {integrity: sha512-W9FEN46XGkBnquAk0thMgAUj1KTKwLGxqXXlpekcZnE29rNmWZBHMd3SD0FIrJvfjKNpLikH3gnTb8rv20bOWg==}
+    engines: {node: '>=v19.0.0'}
+
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+snapshots:
+
+  '@allmaps/id@1.0.0-beta.35': {}
+
+  prettier@3.6.2: {}

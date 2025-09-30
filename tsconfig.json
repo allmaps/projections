@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "allowJs": true,
+    "target": "esnext",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "moduleResolution": "bundler",
+    "ignoreDeprecations": "5.0"
+  }
+}
